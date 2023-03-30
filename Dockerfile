@@ -15,3 +15,4 @@ RUN rm /tmp/apache-maven-$MAVEN_VERSION-bin.tar.gz
 RUN chown jenkins:jenkins /opt/maven;
 ENV MAVEN_HOME=/opt/mvn
 USER jenkins
+
